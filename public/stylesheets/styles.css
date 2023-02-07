@@ -5,3 +5,123 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.beer img {
+    width: 15%;
+    margin-bottom: 5%;
+}
+
+.beer-img {
+    width: 350px;
+
+    
+}
+
+.beer {
+    margin: 5%;
+    height: 20%;
+    width: 30%;
+    
+}
+
+.beer-inner {
+    color: black;
+    margin-left: 5%;
+
+    
+   
+}
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.index-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.index-inner {
+    width: 40%;
+    margin: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.index-inner {
+    width: 40%;
+    margin: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.button-margin {
+    margin: 6.5px;
+}
+
+#coolFooter {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    background-color: #09334e !important;
+}
+
+#footer-div {
+    padding-top: 1%;
+}
+
+.navbar-item-link {
+    padding: 0 10px;
+    color: white;
+}
+.navbar-dark {
+    background-color: green;
+}
+
+.beer-inner img {
+    float: left;
+}
+
+
+
+.index-container .index-inner .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.index-container .index-inner .buttons .btn {
+    margin-bottom: 10px;
+}
+.index-container .index-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-container .index-inner .beer-img {
+    margin: 0 auto;
+}
